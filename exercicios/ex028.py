@@ -8,3 +8,8 @@ if (chute == numero):
     print('Acertou')
 else:
     print('errou')
+
+
+
+print('oi ')
+
