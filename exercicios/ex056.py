@@ -18,5 +18,5 @@ for c in range(0,4,1):
 
 media = media/4
 print('a medida de idade do grupo é {}'.format(media))
-print(' o homem mais velho é {} '.format(nomevelho))
+#print(' o homem mais velho é {} '.format(nomevelho))
 print('e a quantidade de mulheres abaixo de 20 é {}'.format(mulheresnovas))
