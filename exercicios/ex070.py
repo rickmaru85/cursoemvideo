@@ -1,4 +1,4 @@
- qtd_prd_mais_mil      = int(0)
+qtd_prd_mais_mil      = int(0)
 nome_prod_mais_barato = str('')
 preco_mais_barato     = float(0)
 tot_compra            = int(0)
