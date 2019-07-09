@@ -12,7 +12,10 @@ for num in nums:
         n += 1
 
 print(nums.count(9))
-print(nums.index(3) + 1)
+if 3 in nums:
+    print(nums.index(3) + 1)
+else:
+    print('Numero 3 nao foi digitado')
 
 #print(nums.index(%2 ==0))
 
