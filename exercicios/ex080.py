@@ -13,6 +13,6 @@ for c in range(0, 5, 1):
             count += 1
 
         lista.insert(count, num)
-        print(lista)
+        #print(lista)
 
 print(lista)
