@@ -11,8 +11,6 @@ if pessoa['ctps'] != 0:
     pessoa['contração'] = int(input('Digite o ano de contratação:'))
     pessoa['salario'] = int(input('Digite o salario:R$'))
     pessoa['aposentadoria'] = ((int(pessoa['contração'])+int(35))-(int(date.today().year) - int(pessoa['idade'])))
- #   pessoa['aposentadoria'] = ((pessoa['contração'] + 35))
-#    print(int(date.today().year)
 
 for k,v in pessoa.items():
     print(f'{k} tem o valor de {v}')
