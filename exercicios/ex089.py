@@ -32,7 +32,6 @@ for pos,aluno in enumerate(alunos):
     nota1 = 0
     print(f'\n{pos}  ',end= '')
     for po, notas in enumerate(aluno):
-#        print(f'{notas}  ' , end='')
         if po == 0:
             print(f'{notas}  ' , end = '')
             nota = 0

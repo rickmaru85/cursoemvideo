@@ -1,6 +1,5 @@
-numeros = []
-pares = []
-impares = []
+numeros = [[],[]]
+
 num = int(0)
 
 
@@ -11,8 +10,6 @@ for c in range(0,7,1):
     else:
         numeros[1].append(num)
 
-numeros.append(pares)
-numeros.append(impares)
 
 print(sorted(numeros[0]))
 print(sorted(numeros[1]))

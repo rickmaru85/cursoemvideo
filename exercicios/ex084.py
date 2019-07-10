@@ -2,8 +2,6 @@ pessoas = []
 pessoa = []
 menorpeso = maiorpeso = 0
 
-
-
 while True:
 
     pessoa.append(str(input('Digite o nome da pessoa:')))
@@ -16,7 +14,6 @@ while True:
 
     pessoas.append(pessoa[:])
     pessoa.clear()
-
 
     while True:
         opcao = str(input('Deseja continuar?(S/N)').lower())
