@@ -26,7 +26,7 @@ while True:
 for pos,jogador in enumerate(jogadores):
     print(pos,end = ' ')
     for val in jogador.values():
-        print(f'{val}' , end = ' ')
+        print(f'{val:>3}' , end = ' ')
     print()
 
 while True:
